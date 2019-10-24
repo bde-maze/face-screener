@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#title {
+  margin-top: 50px;
+}
+
+#video-section {
+  display: flex;
+  justify-content: center;
+}
+
+#video-container {
+  margin-top: 25px;
+  position: relative;
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+}
